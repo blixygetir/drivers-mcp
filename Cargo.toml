@@ -1,0 +1,12 @@
+[package]
+name = "drivers-mcp"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+async-trait = "0.1.89"
+command = "0.0.0"
+rust-mcp-sdk = "0.7.0"
+serde = "1.0.228"
+serde_json = "1.0.145"
+tokio = "1.47.1"
