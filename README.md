@@ -1,46 +1,29 @@
-# MCP Server in Rust
-
 +-------------------------+
-|       Project Overview  |
+|    MCP Server (Rust)    |
 +-------------------------+
 
-This project implements an **MCP (Model Context Protocol) server** in **Rust**.  
-It aims to **simplify user access to drivers** by providing a central server interface for interacting with different hardware or software drivers safely and efficiently.
+        MCP Server implements the Model Context Protocol (MCP)
+        in Rust, simplifying user access to drivers by providing
+        a central server interface for interacting with different
+        hardware or software drivers safely and efficiently.
 
-+-------------------------+
-|      Features           |
-+-------------------------+
+        Current Version: Linux-only
 
-| Feature                         | Description                                      |
-|---------------------------------|-------------------------------------------------|
-| Fast & Safe                     | Written in Rust, leveraging memory safety       |
-| Unified Driver Access           | Provides a single interface to multiple drivers |
-| Linux-Only                      | Currently works only on Linux systems           |
+Features:
 
-+-------------------------+
-|      Setup & Usage       |
-+-------------------------+
+    - Fast & Safe: Written in Rust, leveraging memory safety
+    - Unified Driver Access: Single interface for multiple drivers
+    - Linux-Only: Currently works only on Linux systems
 
+Setup & Usage:
 
+    1. Build MCP Server:
+        cargo build -p drivers-mcp --release
 
-+-------------------------+
-|    Build MCP Server     |
-+-------------------------+
-Build MCP Server:
+    2. Run MCP Inspector:
+        npx -y @modelcontextprotocol/inspector ./target/release/drivers-mcp
 
-```bash
-cargo build -p drivers-mcp --release
-```
+Contact:
 
-```bash
-npx -y @modelcontextprotocol/inspector ./target/release/drivers-mcp
-```
-
-
-
-+-------------------------+
-|      Contact             |
-+-------------------------+
-
-- Author: Aaryan
-- GitHub: [https://github.com/blixygetir/drivers-mcp](https://github.com/blixygetir/drivers-mcp)
+    Aaryan Dogra
+    aaryan.dogra@hotmail.com
