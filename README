@@ -7,7 +7,7 @@
         a central server interface for interacting with different
         hardware or software drivers safely and efficiently.
 
-        Current Version: Linux-only
+        Current Version: Ubuntu/Debian only
 
 Features:
 
