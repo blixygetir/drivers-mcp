@@ -62,4 +62,4 @@ impl FetchNvidiaDriverVersion {
   }
 }
 
-tool_box!(NvidiaDriverTools, [UpdateNvidiaDrivers, FetchNvidiaDriverVersion]);
+// tool_box!(NvidiaDriverTools, [UpdateNvidiaDrivers, FetchNvidiaDriverVersion]);
