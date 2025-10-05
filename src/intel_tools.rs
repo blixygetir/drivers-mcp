@@ -68,8 +68,4 @@ impl FetchIntelDriverVersion {
    }
 }
 
-tool_box!(IntelDriverTools, [UpdateIntelDrivers, FetchIntelDriverVersion]);
-
-
-
-                  
+// tool_box!(IntelDriverTools, [UpdateIntelDrivers, FetchIntelDriverVersion]);
