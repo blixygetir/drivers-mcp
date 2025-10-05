@@ -60,4 +60,4 @@ impl ListDeviceDrivers {
     }
 }
 
-tool_box!(DriverTools, [ListDrivers, ListDeviceDrivers]);
+// tool_box!(DriverTools, [ListDrivers, ListDeviceDrivers]);
