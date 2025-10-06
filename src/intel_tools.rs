@@ -63,7 +63,7 @@ impl FetchIntelDriverVersion {
             Err(e) => format!("Failed to fetch i915 driver version.\nError: {}", e),
         };
 
-      Ok(CallToolResult::text_content(vec![TextContent::from(message]))
+      Ok(CallToolResult::text_content(vec![TextContent::from(message)]))
 
    }
 }
